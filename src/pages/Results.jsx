@@ -20,14 +20,14 @@ function FadeIn({ children, delay = 0, className = "" }) {
 }
 
 const CASES = [
-  { industry: "Manufacturing", location: "Coimbatore", amount: "₹ 4 Crore", days: "3", growth: "+20%", story: "A manufacturer secured working capital to fulfill a bulk export order that banks couldn't process in time. Disbursed in 3 days — project completed, turnover grew 20%." },
+  { industry: "Manufacturing", location: "Coimbatore", amount: "₹ 4 Crore", days: "3", growth: "+20%", story: "A manufacturer secured working capital to fulfill a bulk export order that banks couldn't process in time. Disbursed in 3 days, project completed, turnover grew 20%." },
   { industry: "Trading", location: "Chennai", amount: "₹ 1.5 Crore", days: "2", growth: "+35%", story: "A wholesale trader with no property to pledge captured peak-season inventory demand with ₹1.5Cr. Disbursed in 2 working days." },
   { industry: "IT Services", location: "Coimbatore", amount: "₹ 80 Lakhs", days: "3", growth: "+30%", story: "An IT services firm bridged a delayed client payment to protect payroll through a critical project delivery phase." },
-  { industry: "Construction", location: "Kerala", amount: "₹ 2.2 Crore", days: "3", growth: "On Time", story: "A civil contractor funded raw material procurement before a major project deadline — no collateral, clear terms, direct disbursal." },
+  { industry: "Construction", location: "Kerala", amount: "₹ 2.2 Crore", days: "3", growth: "On Time", story: "A civil contractor funded raw material procurement before a major project deadline, no collateral, clear terms, direct disbursal." },
 ];
 
 const TESTIMONIALS = [
-  { quote: "Prakax understood our urgency and disbursed funds within 3 days — something no bank could match. Their team made the entire process transparent from day one.", name: "Manufacturing Business Owner", loc: "Coimbatore" },
+  { quote: "Prakax understood our urgency and disbursed funds within 3 days, something no bank could match. Their team made the entire process transparent from day one.", name: "Manufacturing Business Owner", loc: "Coimbatore" },
   { quote: "No collateral, no broker fees, and a decision in 48 hours. We captured a seasonal opportunity we'd otherwise have missed.", name: "Trading Company Director", loc: "Chennai" },
   { quote: "When a client payment got delayed, Prakax bridged the gap so we could pay our team on time. Genuinely felt like a growth partner, not just a lender.", name: "IT Services Founder", loc: "Coimbatore" },
 ];
@@ -44,7 +44,7 @@ export default function Results() {
             <h1 className="font-display text-[clamp(2.8rem,6vw,5.5rem)] font-bold text-white leading-tight">
               Real Businesses.<br /><span className="gold-text">Real Outcomes.</span>
             </h1>
-            <p className="text-[var(--text-muted)] mt-4 max-w-md mx-auto">Funding results across industries and South Indian cities — from manufacturing floors to IT offices.</p>
+            <p className="text-[var(--text-muted)] mt-4 max-w-md mx-auto">Funding results across industries and South Indian cities, from manufacturing floors to IT offices.</p>
           </FadeIn>
         </div>
       </section>
@@ -115,7 +115,7 @@ export default function Results() {
             <h2 className="font-display text-[clamp(2rem,4vw,3rem)] font-bold text-white mb-3">
               Updates on LinkedIn & X
             </h2>
-            <p className="text-[var(--text-muted)] text-sm max-w-sm mx-auto">Funding milestones, SME insights, and client success stories — live on our social pages.</p>
+            <p className="text-[var(--text-muted)] text-sm max-w-sm mx-auto">Funding milestones, SME insights, and client success stories live on our social pages.</p>
           </FadeIn>
           <div className="flex justify-center gap-5 flex-wrap">
             <FadeIn delay={0.1}>
@@ -149,7 +149,7 @@ export default function Results() {
         <FadeIn className="max-w-xl mx-auto px-6">
           <div className="w-px h-10 bg-gradient-to-b from-transparent to-[var(--gold)] mx-auto mb-6" />
           <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-3">Your business could be our<br />next success story.</h2>
-          <p className="text-[var(--text-muted)] mb-8 text-sm">Apply today — free eligibility check, response in 2 hours.</p>
+          <p className="text-[var(--text-muted)] mb-8 text-sm">Apply today, free eligibility check, response in 2 hours.</p>
           <NavLink to="/contact" className="inline-flex items-center gap-2 px-8 py-4 rounded-lg text-[#0A1710] font-bold text-sm"
             style={{ background: "linear-gradient(135deg,#E8C96A,#C9A84C)" }}>
             Apply Now <FaArrowRight size={13} />

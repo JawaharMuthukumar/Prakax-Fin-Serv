@@ -10,8 +10,8 @@ export const site = {
     label: "Chennai — Headquarters",
     address: "GRT Jewellery Building, 4th Floor, No. 17 & 18, Sardar Patel Rd, Opp. Gandhi Nagar, Adyar, Chennai – 600020, Tamil Nadu",
     addressShort: "GRT Jewellery Bldg, 4th Floor, No. 17 & 18, Sardar Patel Rd, Adyar, Chennai – 600020",
-    phone: "9840464227",
-    phoneIntl: "919840464227",
+    phone: "9840464764",
+    phoneIntl: "919840464764",
   },
 
   // Coimbatore = Branch for Prakax (kept from Rise data as requested)
@@ -25,7 +25,7 @@ export const site = {
 
   emails: {
     admin: "admin@prakaxfinserv.com",
-    sales: "sales@prakaxfinserv.com",
+    sales: "prakaxinvest@gmail.com",
   },
 
   whatsapp: "https://wa.me/919840464764",

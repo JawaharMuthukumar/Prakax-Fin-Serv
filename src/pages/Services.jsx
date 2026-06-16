@@ -27,7 +27,7 @@ const SERVICES = [
     sub: "No property. No machinery. No gold. Just your business performance.",
     range: "₹ 50 Lakhs – ₹ 50 Crores",
     body: [
-      "Get the capital your business needs without putting your assets at risk. Our unsecured loans are evaluated purely on business performance — turnover, GST filings, and bank statements.",
+      "Get the capital your business needs without putting your assets at risk. Our unsecured loans are evaluated purely on business performance, turnover, GST filings, and bank statements.",
       "As a direct lender, we make the credit decision in-house. No waiting for third-party approval. No broker fees eating into your amount. Just fast, fair, direct funding.",
     ],
     chips: ["Zero Collateral", "Turnover-Based", "Direct Lender", "1–3 Day Disbursal"],
@@ -39,8 +39,8 @@ const SERVICES = [
     sub: "Bridge cash flow gaps without disrupting operations.",
     range: "Flexible tenure",
     body: [
-      "Cash flow gaps are the number one reason healthy businesses stall. Inventory to purchase, payroll to run, orders to fulfill — but the bank account doesn't match the calendar.",
-      "We structure working capital solutions around your actual operating cycle — repayment aligns with when your business generates revenue, not an arbitrary bank schedule.",
+      "Cash flow gaps are the number one reason healthy businesses stall. Inventory to purchase, payroll to run, orders to fulfill, but the bank account doesn't match the calendar.",
+      "We structure working capital solutions around your actual operating cycle, repayment aligns with when your business generates revenue, not an arbitrary bank schedule.",
     ],
     chips: ["Cycle-Aligned Terms", "Fast Disbursal", "No Collateral", "Flexible Repayment"],
   },
@@ -51,26 +51,26 @@ const SERVICES = [
     sub: "3 to 10 months. Capital now. Repay as cashflow returns.",
     range: "3–10 Month Tenure",
     body: [
-      "When your business needs capital for a defined period and you know when cash will return — short-term funding is the most efficient tool. You're not carrying long-term debt for a short-term need.",
-      "Interest rates are competitive and based on your business turnover profile. As a direct lender, we cut out intermediary margins — better rates pass directly to you.",
+      "When your business needs capital for a defined period and you know when cash will return, short-term funding is the most efficient tool. You're not carrying long-term debt for a short-term need.",
+      "Interest rates are competitive and based on your business turnover profile. As a direct lender, we cut out intermediary margins, better rates pass directly to you.",
     ],
     chips: ["3–10 Month Tenure", "Competitive Rates", "No Middlemen", "Clean Exit"],
   },
 ];
 
 const DOCS = [
-  { icon: <FaFileInvoiceDollar size={24} />, title: "Bank Statements", desc: "Last 6 months — business account" },
+  { icon: <FaFileInvoiceDollar size={24} />, title: "Bank Statements", desc: "Last 6 months, business account" },
   { icon: <FaFileContract size={24} />, title: "GST Returns", desc: "Last 6 months of filings" },
   { icon: <FaReceipt size={24} />, title: "IT Returns", desc: "Last 2 years of income tax returns" },
 ];
 
 const FAQS = [
   { q: "Do I need to provide collateral?", a: "No. Our loans are entirely unsecured. We do not require property, machinery, gold, or any other asset. Eligibility is based solely on business turnover and financial health." },
-  { q: "What interest rates do you offer?", a: "Rates are competitive and determined based on your business turnover, cash flow patterns, and tenure. As a direct lender there's no broker markup — you get better rates than most intermediary-routed channels." },
+  { q: "What interest rates do you offer?", a: "Rates are competitive and determined based on your business turnover, cash flow patterns, and tenure. As a direct lender there's no broker markup, you get better rates than most intermediary-routed channels." },
   { q: "How long does approval take?", a: "Once all documents are submitted, approval decisions are typically made within 24–48 hours. Disbursal follows within 1–3 working days total." },
-  { q: "What determines eligibility?", a: "We evaluate primarily on business turnover, GST filings, and bank statements — not credit scores. Many clients have been funded after being turned down by banks for credit-related reasons." },
+  { q: "What determines eligibility?", a: "We evaluate primarily on business turnover, GST filings, and bank statements, not credit scores. Many clients have been funded after being turned down by banks for credit-related reasons." },
   { q: "Can I repay early?", a: "Early repayment terms are discussed clearly at loan structuring. There are no hidden charges or surprise penalties. All terms are clear before you sign." },
-  { q: "Which regions do you serve?", a: "Tamil Nadu, Kerala, Pondicherry, Karnataka (Urban Cities), and Hyderabad - Telangana. Contact us if you're nearby — we evaluate on a case-by-case basis." },
+  { q: "Which regions do you serve?", a: "Tamil Nadu, Kerala, Pondicherry, Karnataka (Urban Cities), and Hyderabad, Telangana. Contact us if you're nearby, we evaluate on a case-by-case basis." },
 ];
 
 function FAQItem({ q, a }) {
@@ -111,7 +111,7 @@ export default function Services() {
               Built for how<br /><span className="gold-text">SMEs operate.</span>
             </h1>
             <p className="text-[var(--text-muted)] mt-4 max-w-lg mx-auto text-base leading-relaxed">
-              Fast, unsecured business funding designed around the reality of South Indian businesses — not bank paperwork.
+              Fast, unsecured business funding designed around the reality of South Indian businesses, not bank paperwork.
             </p>
           </FadeIn>
         </div>

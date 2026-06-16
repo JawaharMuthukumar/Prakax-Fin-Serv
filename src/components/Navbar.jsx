@@ -38,15 +38,15 @@ export default function Navbar() {
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 flex items-center justify-between h-[88px]">
 
           {/* ── LOGO ── */}
-          <NavLink to="/" className="flex items-center gap-3 cursor-default" aria-label="Prakax Fin Serv">
+          <NavLink to="/" className="flex items-center gap-(-2) cursor-default" aria-label="Prakax Fin Serv">
               <img
                 src="/prakax-logo.png"
                 alt="Prakax"
-                className="w-20 h-20 object-contain"
+                className="w-28 h-28 object-contain"
               />
             <div className="flex flex-col -gap-1">
-              <span className="font-display text-[26px] font-bold leading-none gold-text tracking-wide">PRAKAX</span>
-              <span className="text-[11px] font-mono font-medium tracking-[3px] text-[var(--text-muted)] uppercase">Fin Serv</span>
+              <span className="font-display text-[18px] font-bold leading-none gold-text tracking-wide">PRAKAX</span>
+              <span className="text-[8px] font-mono font-medium tracking-[3px] text-[var(--text-muted)] uppercase">Fin Serv</span>
             </div>
           </NavLink>
 

@@ -20,7 +20,7 @@ function FadeIn({ children, delay = 0, className = "" }) {
 }
 
 const VALUES = [
-  { icon: <FaHandshake size={22} />, title: "No Intermediaries", desc: "We are a direct lender. Every decision is made in-house — faster approvals, zero broker markup." },
+  { icon: <FaHandshake size={22} />, title: "No Intermediaries", desc: "We are a direct lender. Every decision is made in-house, faster approvals, zero broker markup." },
   { icon: <FaBolt size={22} />, title: "Same-Week Disbursal", desc: "Funds reach your account within days, not weeks. Business opportunities don't wait." },
   { icon: <FaUsers size={22} />, title: "SME-First Mindset", desc: "Every product, process, and policy is designed around how real small and medium businesses operate." },
 ];
@@ -41,10 +41,10 @@ export default function About() {
               Built on Trust.<br /><span className="gold-text">For Growth.</span>
             </h1>
             <p className="text-[var(--text-muted)] leading-relaxed mb-4">
-              Prakax Fin Serv was founded on one idea — Indian SMEs deserve faster, fairer access to capital. Too many strong businesses are held back not by performance, but by paperwork, collateral demands, and slow bank processes.
+              Prakax Fin Serv was founded on one idea: Indian SMEs deserve faster, fairer access to capital. Too many strong businesses are held back not by performance, but by paperwork, collateral demands, and slow bank processes.
             </p>
             <p className="text-[var(--text-muted)] leading-relaxed mb-4">
-              As a direct lender, we cut the layers between a business and its funding. We evaluate real performance — turnover, GST filings, cash flow — and make decisions quickly, transparently, and without hidden costs.
+              As a direct lender, we cut the layers between a business and its funding. We evaluate real performance, turnover, GST filings, cash flow, and make decisions quickly, transparently, and without hidden costs.
             </p>
             <p className="text-[var(--text-muted)] leading-relaxed">
               Headquartered in Chennai with a branch in Coimbatore, we serve businesses across Tamil Nadu, Kerala, Pondicherry, Karnataka (Urban Cities), and Hyderabad - Telangana.

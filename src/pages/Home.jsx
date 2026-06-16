@@ -221,7 +221,7 @@ const SERVICES = [
 
 const STEPS = [
   { n: "01", title: "Share 3 Documents", body: "Bank statements (6M) · GST returns (6M) · IT returns (2Y). Submit in 15 minutes online or in-office." },
-  { n: "02", title: "In-House Evaluation", body: "Our team evaluates based on business turnover — not credit scores or property. Decision in 24–48 hours." },
+  { n: "02", title: "In-House Evaluation", body: "Our team evaluates based on business turnover, not credit scores or property. Decision in 24–48 hours." },
   { n: "03", title: "Funds in Your Account", body: "Direct disbursal with zero deductions, zero broker cuts. Clear repayment schedule from day one." },
 ];
 
@@ -275,12 +275,6 @@ export default function Home() {
             style={{ background: "radial-gradient(ellipse,rgba(201,168,76,0.1) 0%,transparent 70%)" }} />
         </motion.div>
 
-        {/* watermark logo */}
-        <motion.div style={{ y: heroY, opacity: heroOpacity }}
-          className="absolute right-0 top-1/2 -translate-y-1/2 w-[55vw] max-w-[700px] pointer-events-none opacity-[0.05]">
-          <img src="/prakax-logo.png" alt="" className="w-full h-full object-contain" />
-        </motion.div>
-
         <div className="absolute left-0 right-0 top-[72px] h-px bg-gradient-to-r from-transparent via-[rgba(201,168,76,0.3)] to-transparent" />
 
         <div className="relative z-10 max-w-[1200px] mx-auto px-6 md:px-10 pt-28 pb-20 grid lg:grid-cols-[1fr_420px] gap-16 items-center">
@@ -332,7 +326,7 @@ export default function Home() {
             </motion.div>
           </motion.div>
 
-          {/* RIGHT — spinning logo + badges */}
+          {/* RIGHT — value badges */}
           <motion.div initial={{ opacity: 0, scale: 0.85 }} animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.9, delay: 0.5 }}
             className="hidden lg:flex items-center justify-center relative">
@@ -341,24 +335,12 @@ export default function Home() {
             <div className="absolute w-[270px] h-[270px] rounded-full border border-[rgba(201,168,76,0.1)]" />
             <div className="absolute w-[220px] h-[220px] rounded-full"
               style={{ background: "radial-gradient(ellipse,rgba(201,168,76,0.15) 0%,transparent 70%)" }} />
-            <motion.img src="/prakax-logo.png" alt="Prakax"
-              animate={{ y: [0, -14, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-              className="relative w-48 h-48 object-contain drop-shadow-[0_0_40px_rgba(201,168,76,0.45)]" />
             <FloatBadge className="absolute -top-4 -right-4" delay={1.4}>Approved in <b className="ml-1">1–3 Days</b></FloatBadge>
             <FloatBadge className="absolute -bottom-2 -left-8" delay={1.6}><b>₹2500Cr+</b><span className="ml-1">Disbursed</span></FloatBadge>
           </motion.div>
         </div>
 
         {/* TICKER */}
-        <div className="absolute bottom-0 left-0 right-0 border-t border-[rgba(201,168,76,0.1)] bg-[rgba(10,23,16,0.85)] backdrop-blur-sm py-3 overflow-hidden">
-          <div className="ticker-inner gap-12 text-[11px] font-mono text-[var(--text-muted)] tracking-[1px]">
-            {[...TICKERS, ...TICKERS].map((t, i) => (
-              <span key={i} className="inline-flex items-center gap-4 mr-12">
-                <span className="w-1 h-1 rounded-full bg-[var(--gold)]" />{t}
-              </span>
-            ))}
-          </div>
-        </div>
       </section>
 
       {/* ══════════════════════════════════════
@@ -383,10 +365,10 @@ export default function Home() {
               Banks take weeks.<br /><span className="gold-text">Your orders can't.</span>
             </h2>
             <p className="text-[var(--text-muted)] leading-relaxed mb-4 text-sm">
-              Every SME owner knows the moment — a bulk order arrives, a payment delays, an opportunity appears with a 48-hour window. Traditional channels fail. Brokers add cost. Credit scores derail good businesses.
+              Every SME owner knows the moment a bulk order arrives, a payment delays, an opportunity appears with a 48-hour window. Traditional channels fail. Brokers add cost. Credit scores derail good businesses.
             </p>
             <p className="text-[var(--text-muted)] leading-relaxed mb-7 text-sm">
-              Prakax Fin Serv fills that gap. We're a <span className="text-white font-medium">direct lender</span> — decisions in-house, funds disbursed without middlemen, and a team that treats your urgency as a priority.
+              Prakax Fin Serv fills that gap. We're a <span className="text-white font-medium">direct lender</span>, funds disbursed without middlemen, and a team that treats your urgency as a priority.
             </p>
             <NavLink to="/about" className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--gold)] underline-gold">
               Our story <FaArrowRight size={12} />
@@ -546,7 +528,7 @@ export default function Home() {
           <FadeIn>
             <div className="w-px h-12 bg-gradient-to-b from-transparent to-[var(--gold)] mx-auto mb-6" />
             <h2 className="font-display text-[clamp(2.5rem,6vw,5rem)] font-bold text-white leading-tight mb-4">
-              When your business<br />needs capital —<br /><span className="gold-text">every day counts.</span>
+              When your business<br />needs capital<br /><span className="gold-text">every day counts.</span>
             </h2>
             <p className="text-[var(--text-muted)] mb-9 max-w-md mx-auto">
               Talk to our funding team. Free eligibility check. No obligation. Response in 2 hours.
