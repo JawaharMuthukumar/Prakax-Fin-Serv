@@ -35,21 +35,18 @@ export default function Navbar() {
             : "bg-transparent"
         }`}
       >
-        <div className="max-w-[1200px] mx-auto px-6 md:px-10 flex items-center justify-between h-[76px]">
+        <div className="max-w-[1200px] mx-auto px-6 md:px-10 flex items-center justify-between h-[88px]">
 
           {/* ── LOGO ── */}
-          <NavLink to="/" className="flex items-center gap-3 group" aria-label="Prakax Fin Serv">
-            <div className="relative">
-              <div className="absolute inset-0 rounded-full bg-gold/20 blur-md group-hover:bg-gold/35 transition-all duration-500 scale-110" />
+          <NavLink to="/" className="flex items-center gap-3 cursor-default" aria-label="Prakax Fin Serv">
               <img
                 src="/prakax-logo.png"
                 alt="Prakax"
-                className="relative w-16 h-16 object-contain drop-shadow-[0_0_10px_rgba(201,168,76,0.6)]"
+                className="w-20 h-20 object-contain"
               />
-            </div>
             <div className="flex flex-col -gap-1">
-              <span className="font-display text-[22px] font-bold leading-none gold-text tracking-wide">PRAKAX</span>
-              <span className="text-[9px] font-mono font-medium tracking-[3px] text-[var(--text-muted)] uppercase">Fin Serv</span>
+              <span className="font-display text-[26px] font-bold leading-none gold-text tracking-wide">PRAKAX</span>
+              <span className="text-[11px] font-mono font-medium tracking-[3px] text-[var(--text-muted)] uppercase">Fin Serv</span>
             </div>
           </NavLink>
 
