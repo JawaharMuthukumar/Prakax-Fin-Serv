@@ -44,7 +44,7 @@ export default function Navbar() {
               <img
                 src="/prakax-logo.png"
                 alt="Prakax"
-                className="relative w-11 h-11 object-contain drop-shadow-[0_0_8px_rgba(201,168,76,0.5)]"
+                className="relative w-16 h-16 object-contain drop-shadow-[0_0_10px_rgba(201,168,76,0.6)]"
               />
             </div>
             <div className="flex flex-col -gap-1">
@@ -124,7 +124,7 @@ export default function Navbar() {
               className="fixed top-0 right-0 bottom-0 z-[99] w-72 bg-[#0A1710] border-l border-[rgba(201,168,76,0.1)] flex flex-col p-8 md:hidden"
             >
               <div className="flex items-center gap-3 mb-10">
-                <img src="/prakax-logo.png" alt="Prakax" className="w-9 h-9 object-contain" />
+                <img src="/prakax-logo.png" alt="Prakax" className="w-14 h-14 object-contain" />
                 <span className="font-display text-xl gold-text font-bold">PRAKAX</span>
               </div>
               <nav className="flex flex-col gap-1 flex-1">

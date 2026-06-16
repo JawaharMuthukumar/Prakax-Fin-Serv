@@ -5,8 +5,7 @@ import { site } from "../data/site";
 
 function Label({ children }) {
   return (
-    <div className="inline-flex items-center gap-2 mb-3">
-      <span className="w-5 h-px bg-[var(--gold)]" />
+    <div className="mb-3">
       <span className="text-[11px] font-mono tracking-[3px] text-[var(--gold)] uppercase">{children}</span>
     </div>
   );

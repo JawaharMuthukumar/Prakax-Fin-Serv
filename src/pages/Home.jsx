@@ -27,8 +27,7 @@ function useCountUp(end, duration, active) {
 /* ── Shared sub-components ─────────────────── */
 function Label({ children, center }) {
   return (
-    <div className={`inline-flex items-center gap-2 mb-3 ${center ? "justify-center" : ""}`}>
-      <span className="w-5 h-px bg-[var(--gold)]" />
+    <div className={`mb-3 ${center ? "text-center" : ""}`}>
       <span className="text-[11px] font-mono tracking-[3px] text-[var(--gold)] uppercase">{children}</span>
     </div>
   );
@@ -290,8 +289,7 @@ export default function Home() {
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.9, delay: 0.1 }}>
             <motion.div initial={{ width: 0 }} animate={{ width: "auto" }} transition={{ duration: 0.6, delay: 0.3 }}
               className="inline-flex items-center gap-2 mb-6 overflow-hidden">
-              <span className="w-8 h-px bg-[var(--gold)]" />
-              <span className="text-[11px] font-mono tracking-[3px] text-[var(--gold)] uppercase">Direct Fund Provider · No Middlemen</span>
+              <span className="text-[11px] font-mono tracking-[3px] text-[var(--gold)] uppercase">Direct Funder · No Middlemen</span>
             </motion.div>
 
             <h1 className="font-display text-[clamp(3rem,7vw,6.5rem)] font-bold leading-[1.0] tracking-tight">
@@ -502,7 +500,7 @@ export default function Home() {
           <FadeIn delay={0.2}>
             <div className="glass rounded-2xl p-8 border-gold-glow">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-full overflow-hidden ring-2 ring-[rgba(201,168,76,0.3)]">
+                <div className="w-14 h-14 rounded-full overflow-hidden ring-2 ring-[rgba(201,168,76,0.3)]">
                   <img src="/prakax-logo.png" alt="Prakax" className="w-full h-full object-contain" />
                 </div>
                 <div>

@@ -28,7 +28,7 @@ export default function Footer() {
             <NavLink to="/" className="flex items-center gap-3 mb-5">
               <div className="relative">
                 <div className="absolute inset-0 rounded-full bg-[rgba(201,168,76,0.15)] blur-md" />
-                <img src="/prakax-logo.png" alt="Prakax" className="relative w-10 h-10 object-contain drop-shadow-[0_0_6px_rgba(201,168,76,0.4)]" />
+                <img src="/prakax-logo.png" alt="Prakax" className="relative w-14 h-14 object-contain drop-shadow-[0_0_8px_rgba(201,168,76,0.4)]" />
               </div>
               <div>
                 <div className="font-display text-xl font-bold gold-text leading-none">PRAKAX</div>

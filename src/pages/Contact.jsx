@@ -6,8 +6,7 @@ import { site } from "../data/site";
 
 function Label({ children }) {
   return (
-    <div className="inline-flex items-center gap-2 mb-3">
-      <span className="w-5 h-px bg-[var(--gold)]" />
+    <div className="mb-3">
       <span className="text-[11px] font-mono tracking-[3px] text-[var(--gold)] uppercase">{children}</span>
     </div>
   );
@@ -95,7 +94,7 @@ export default function Contact() {
           <FadeIn>
             <div className="glass rounded-2xl border-gold-glow p-8 md:p-10">
               <div className="flex items-center gap-3 mb-8 pb-6 border-b border-[rgba(255,255,255,0.05)]">
-                <img src="/prakax-logo.png" alt="Prakax" className="w-9 h-9 object-contain" />
+                <img src="/prakax-logo.png" alt="Prakax" className="w-12 h-12 object-contain" />
                 <div>
                   <div className="font-semibold text-white text-sm">Eligibility Application</div>
                   <div className="text-[11px] font-mono text-[var(--text-muted)]">Free · No credit pull · 2-hr response</div>
